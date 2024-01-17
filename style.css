@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    box-sizing: border-box;
+    
+}
+
+.start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 200px 20px;
+    border: 2px solid white;
+    gap: 20px;
+    text-align: center;
+}
+
+.start a {
+    text-decoration: none;
+    color: rgb(245, 238, 243);
+    padding: 20px;
+    border: 11px solid rgb(91, 6, 102);
+    width: 150px;
+}
+
+.start a:hover {
+    background-color: #82077d;
+    color: rgb(24, 11, 36);
+}
+
+.header {
+    color: rgb(24, 11, 36);
+    font-size: 50px;
+    border: none;
+    text-align: center;
+}
+
+ body { 
+    background-image: url('/Images/images (12).jpeg');
+     /* background-image: opacity: 25% ;  */
+} 
+
+.header:hover {
+    background-image: url('/Images/images (15).jpeg');
+    background-position: center;
+}
+
+.top {
+    color: rgb(91, 6, 102);
+    text-decoration: underline #fff;
+    text-decoration: solid;
+    font-weight: 800;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.timer{
+    color: rgb(243, 22, 22);
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.container, .game-ended, .timer {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+button {
+    color: rgb(111, 41, 241);
+    width: 5rem;
+    height: 2rem;
+    border: #fff; border-radius: calc(15%);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.question {
+    border: 1px solid rgb(190, 132, 245);
+    border-radius: calc(5%);
+    padding: 1rem;
+    color: rgb(241, 247, 250);
+    font-weight: bold;
+}
+
+
+.options {
+    margin-block: 1rem;
+    
+}
+
+.option-item {
+    border: 1px solid rgb(243, 239, 247);
+    cursor: pointer;
+    border-radius: calc(25%);
+    /* border-bottom-style: solid; */
+}
+
+.option-item input {
+    display: none;
+}
+
+.option-item:hover{
+    color: rgb(99, 13, 170);
+}
+
+.option-item label {
+    display: block;
+    padding: .5rem;
+}
+
+.option-item input:checked + label {
+    background-color: blueviolet;
+}
+
+.hide {
+    display: none;
+}
+
+.option-item__review {
+    padding: .5rem;
+    color: white;
+    margin-bottom: 1px;
+}
+
+.is-correct {
+    padding: 10px; 
+}
