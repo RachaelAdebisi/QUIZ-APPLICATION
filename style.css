@@ -39,12 +39,12 @@
 
 body { 
     background-color: #f087f0;
-    background-image: url('/Images/images (12).jpeg');
+    background-image: url('./Images/images_12.jpeg');
      /* background-image: opacity: 25% ;  */
 } 
 
 .header:hover {
-    background-image: url('/Images/images (15).jpeg');
+    background-image: url('./Images/images (15).jpeg');
     background-position: center;
 }
 
