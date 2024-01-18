@@ -37,7 +37,8 @@
     text-align: center;
 }
 
- body { 
+body { 
+    background-color: #f087f0;
     background-image: url('/Images/images (12).jpeg');
      /* background-image: opacity: 25% ;  */
 } 
